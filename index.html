@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rechnen mit Termen</title>
+  
+
+</head>
+<body style="background-color: #B9D1EA; margin-top: 1em; ">
+       
+
+    <style> 
+         
+        .Text1 {font-size: 1.5em;font-family: Verdana,Sans-serif; margin:0.5em;}
+        
+        .ueb1 {display: flex;flex-direction:row;justify-content:start;align-items:center;}
+        .ueb2 {display: flex;flex-direction:column;justify-content:start;align-items:center;}
+        .Text2 { font-size: 1em; font-family: Verdana,Sans-serif;margin-top:1em;margin-left:0.5em;}
+        .Text3 { font-size: 0.8em;background-color: white; font-family: Verdana,Sans-serif;margin:0.5em; }
+        
+        .Aufgabe { font-size: 0.8em;  font-family: Verdana,Sans-serif;margin:0.5em;}
+        button {background-color:white;font-size:1em; font-family: Verdana, Sans-serif; }
+        input {background-color:yellow; }
+    </style>
+    
+	
+    <p class="Text1">Wie löse ich Matheaufgaben?</p>
+		<p class="Text1">Bruchrechnen</p>
+  
+    <p class="Text2"><span style= "background-color:white;">Sie sehen ein gelbes Eingabefeld oder den <br>Schalter: Lösung.</span></p>
+		<p class="Text2"><span style= "background-color:white;">Tragen Sie Ihr Ergebnis ein, prüfen Sie es <br> oder starten Sie eine Lösung.</span></p>
+  </div>
+
+    <!--//Aufgabe 1-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 1</p>
+  <p class = "Aufgabe" ><strong>1 840   &nbsp; &nbsp; </strong> Ihr Ergebnis:
+    <input type="text" id="Eintrag1" maxlength="12" size="10" style= background-color:yellow ></input>
+    <button id="Pruef1" onclick="Aufgabe1()">Prüfen</button>
+    
+                     <script>
+                        function Aufgabe1() { 
+                                                
+                          if (Eintrag1.value=="2*2*2*2*5*23") {alert("Richtig"); document.getElementById("Pruef1").disabled= true;
+                          }  
+                           
+                          else if (Eintrag1.value!=="2*2*2*2*5*23" && Eintrag1.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag1").value="2*2*2*2*5*23"; window.open('Bruch_Aufgabe1.html');           
+                          document.getElementById("Pruef1").disabled= true;}
+                               
+                          else if (Eintrag1.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+
+<!--//Aufgabe 2-->
+
+  <p class="Aufgabe" style="font-weight:bold" >Aufgabe 2</p>
+  <p class="Aufgabe" style="font-weight:bold">2 535 &nbsp; &nbsp; &nbsp; &nbsp;
+  <button  onclick="window.open('Bruch_Aufgabe2.html');" >Lösung</button></p>
+
+<!--//Aufgabe 3-->
+
+  <p class ="Aufgabe" style="font-weight:bold">Aufgabe 3</p>
+  <p class = "Aufgabe" ><strong>3 232   &nbsp; &nbsp; </strong> Ihr Ergebnis:
+    <input type="text" id="Eintrag3" maxlength="13" size="10" style= background-color:yellow ></input>
+    <button id="Pruef3" onclick="Aufgabe3()">Prüfen</button>
+                        
+                      <script>
+                        function Aufgabe3() { 
+                                                
+                          if (Eintrag3.value=="2*2*2*2*2*101") {alert("Richtig"); document.getElementById("Pruef3").disabled= true;
+                          }  
+                           
+                          else if (Eintrag3.value!=="2*2*2*2*2*101" && Eintrag3.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag3").value="2*2*2*2*2*101"; window.open('Bruch_Aufgabe3.html');           
+                          document.getElementById("Pruef3").disabled= true;}
+                               
+                          else if (Eintrag3.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+
+  <!--//Aufgabe 4-->
+
+  <p class="Aufgabe" style="font-weight:bold" >Aufgabe 4</p>
+  <p class="Aufgabe" style="font-weight:bold">10 448 &nbsp; &nbsp; &nbsp; 
+  <button  onclick="window.open('Bruch_Aufgabe4.html');" >Lösung</button></p>
+
+  <!--//Aufgabe 5-->
+   
+  <p class ="Aufgabe" style="font-weight:bold">Aufgabe 5</p>
+  <p class = "Aufgabe" ><strong>48 357   &nbsp; &nbsp;</strong> Ihr Ergebnis:
+    <input type="text" id="Eintrag5" maxlength="13" size="10" style= background-color:yellow ></input>
+    <button id="Pruef5" onclick="Aufgabe5()">Prüfen</button>
+       
+     <script>
+                        function Aufgabe5() { 
+                                                
+                          if (Eintrag5.value=="3*3*3*3*3*199") {alert("Richtig"); document.getElementById("Pruef5").disabled= true;
+                          }  
+                           
+                          else if (Eintrag5.value!=="3*3*3*3*3*199" && Eintrag5.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag5").value="3*3*3*3*3*199"; window.open('Bruch_Aufgabe5.html');           
+                          document.getElementById("Pruef5").disabled= true;}
+                               
+                          else if (Eintrag5.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+
+  <!--//Aufgabe 6-->
+
+   <p class="Aufgabe" style="font-weight:bold" >Aufgabe 6</p>
+  <p class="Aufgabe" style="font-weight:bold">144 875 &nbsp; &nbsp; &nbsp; 
+  <button  onclick="window.open('Bruch_Aufgabe6.html');" >Lösung</button></p>
+  
+  <!--//Aufgabe 7-->
+  
+  <p class ="Aufgabe" style="font-weight:bold">Aufgabe 7</p>
+  <p class = "Aufgabe" ><strong>55 832   &nbsp; &nbsp;</strong> Ihr Ergebnis:
+    <input type="text" id="Eintrag7" maxlength="11" size="8" style= background-color:yellow ></input>
+    <button id="Pruef7" onclick="Aufgabe7()">Prüfen</button>
+  
+
+                    <script>
+                        function Aufgabe7() { 
+                                                
+                          if (Eintrag7.value=="2*2*2*7*997") {alert("Richtig"); document.getElementById("Pruef7").disabled= true;
+                          }  
+                           
+                          else if (Eintrag7.value!=="2*2*2*7*997" && Eintrag7.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag7").value="2*2*2*7*997";window.open('Bruch_Aufgabe7.html');            
+                          document.getElementById("Pruef7").disabled= true;}
+                               
+                          else if (Eintrag7.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+  <!--//Aufgabe 8-->
+
+   <p class="Aufgabe" style="font-weight:bold" >Aufgabe 8</p>
+  <p class="Aufgabe" style="font-weight:bold">5 986 890 &nbsp; &nbsp; &nbsp; 
+  <button  onclick="window.open('Bruch_Aufgabe8.html');" >Lösung</button></p>
+
+  <!--//Aufgabe 9-->
+  
+  <p class ="Aufgabe" style="font-weight:bold">Aufgabe 9</p>
+  <p class = "Aufgabe" ><strong>453 277   &nbsp; &nbsp;</strong> Ihr Ergebnis:
+    <input type="text" id="Eintrag9" maxlength="9" size="7" style= background-color:yellow ></input>
+    <button id="Pruef9" onclick="Aufgabe9()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe9() { 
+                                                
+                          if (Eintrag9.value=="11*89*463") {alert("Richtig"); document.getElementById("Pruef9").disabled= true;
+                          }  
+                           
+                          else if (Eintrag9.value!=="11*89*463" && Eintrag9.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag9").value="11*89*463";window.open('Bruch_Aufgabe9.html');            
+                          document.getElementById("Pruef9").disabled= true;}
+                               
+                          else if (Eintrag9.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script><br><br>
+                      
+  <p class="Aufgabe" > <span style= "background-color:white;">Das kleinste, gemeinsame Vielfache kgV<br>und der größte gemeinsame Teiler ggT</span></p><br> 
+
+  <!--//Aufgabe 10-->
+  
+  <p class ="Aufgabe" style="font-weight:bold">Aufgabe 10</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie das kgV von 2, 3, 4, 5, 6, 10, 12   </strong><br> Ihr Ergebnis:
+    <input type="text" id="Eintrag10" maxlength="2" size="1" style= background-color:yellow ></input>
+    <button id="Pruef10" onclick="Aufgabe10()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe10() { 
+                                                
+                          if (Eintrag10.value=="60") {alert("Richtig"); document.getElementById("Pruef10").disabled= true;
+                          }  
+                           
+                          else if (Eintrag10.value!=="60" && Eintrag10.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag10").value="60";window.open('Bruch_Aufgabe10.html');
+                          document.getElementById("Pruef10").disabled= true;}                               
+                          else if (Eintrag10.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+
+    <!--//Aufgabe 11-->
+
+    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 11</p>
+        <p class="Aufgabe" style="font-weight:bold">Bestimmen Sie das kgV von 37, 61, 71, 74    &nbsp; &nbsp; &nbsp; 
+        <button  onclick="window.open('Bruch_Aufgabe11.html');" >Lösung</button></p>
+        
+    <!--//Aufgabe 12-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 12</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie das kgV von 48, 56, 126, 156, 189, 273, 546 </strong><br> Ihr Ergebnis:
+    <input type="text" id="Eintrag12" maxlength="5" size="2" style= background-color:yellow ></input>
+    <button id="Pruef12" onclick="Aufgabe12()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe12() { 
+                                                
+                          if (Eintrag12.value=="39312") {alert("Richtig"); document.getElementById("Pruef12").disabled= true;
+                          }  
+                           
+                          else if (Eintrag12.value!=="39312" && Eintrag12.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag12").value="39312";window.open('Bruch_Aufgabe12.html');            
+                          document.getElementById("Pruef12").disabled= true;}                               
+                          else if (Eintrag12.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+
+    <!--//Aufgabe 13-->
+
+    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 13</p>
+        <p class="Aufgabe" style="font-weight:bold">Bestimmen Sie das kgV von 6, 81, 125, 135, 225, 675    &nbsp; &nbsp; &nbsp; 
+        <button  onclick="window.open('Bruch_Aufgabe13.html');" >Lösung</button></p>
+
+    <!--//Aufgabe 14-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 14</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie das kgV von 729, 6 561, 19 683 </strong><br> Ihr Ergebnis:
+    <input type="text" id="Eintrag14" maxlength="5" size="2" style= background-color:yellow ></input>
+    <button id="Pruef14" onclick="Aufgabe14()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe14() { 
+                                                
+                          if (Eintrag14.value=="19683") {alert("Richtig"); document.getElementById("Pruef14").disabled= true;
+                          }  
+                           
+                          else if (Eintrag14.value!=="19683" && Eintrag14.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag14").value="19683"; window.open('Bruch_Aufgabe14.html');           
+                          document.getElementById("Pruef14").disabled= true;}                               
+                          else if (Eintrag14.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script> 
+
+    <!--//Aufgabe 15-->
+
+    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 15</p>
+        <p class="Aufgabe" style="font-weight:bold">Bestimmen Sie das kgV von 83, 483, 967    &nbsp; &nbsp; &nbsp; 
+        <button  onclick="window.open('Bruch_Aufgabe15.html');" >Lösung</button></p>
+
+        <!--//Aufgabe 16-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 16</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie das kgV von 90, 210, 31, 378 </strong><br> Ihr Ergebnis:
+    <input type="text" id="Eintrag16" maxlength="4" size="2" style= background-color:yellow ></input>
+    <button id="Pruef16" onclick="Aufgabe16()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe16() { 
+                                                
+                          if (Eintrag16.value=="1890") {alert("Richtig"); document.getElementById("Pruef16").disabled= true;
+                          }  
+                           
+                          else if (Eintrag16.value!=="1890" && Eintrag16.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag16").value="1890"; window.open('Bruch_Aufgabe16.html');           
+                          document.getElementById("Pruef16").disabled= true;}                               
+                          else if (Eintrag16.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+                      
+    <!--//Aufgabe 17-->
+
+    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 17</p>
+        <p class="Aufgabe" style="font-weight:bold">Bestimmen Sie das kgV von 77, 97, 119, 143, 221, 539, 2 431    &nbsp; &nbsp; &nbsp; 
+        <button  onclick="window.open('Bruch_Aufgabe17.html');" >Lösung</button></p>
+
+    <!--//Aufgabe 18-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 18</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie das kgV von 24, 64, 81, 96, 243, 384, 1 296, 3 888 </strong><br> Ihr Ergebnis:
+    <input type="text" id="Eintrag18" maxlength="5" size="2" style= background-color:yellow ></input>
+    <button id="Pruef18" onclick="Aufgabe18()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe18() { 
+                                                
+                          if (Eintrag18.value=="31104") {alert("Richtig"); document.getElementById("Pruef18").disabled= true;
+                          }  
+                           
+                          else if (Eintrag18.value!=="31104" && Eintrag18.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag18").value="31104"; window.open('Bruch_Aufgabe18.html');
+                          document.getElementById("Pruef18").disabled= true;}                               
+                          else if (Eintrag18.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+
+    <!--//Aufgabe 19-->
+
+    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 19</p>
+        <p class="Aufgabe" style="font-weight:bold">Bestimmen Sie das kgV von 15, 42, 60, 105    &nbsp; &nbsp; &nbsp; 
+        <button  onclick="window.open('Bruch_Aufgabe19.html');" >Lösung</button></p>
+
+    <!--//Aufgabe 20-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 20</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie den ggT von 27, 39, 57, 66, 72, 87 </strong><br> Ihr Ergebnis:
+    <input type="text" id="Eintrag20" maxlength="1" size="1" style= background-color:yellow ></input>
+    <button id="Pruef20" onclick="Aufgabe20()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe20() { 
+                                                
+                          if (Eintrag20.value=="3") {alert("Richtig"); document.getElementById("Pruef20").disabled= true;
+                          }  
+                           
+                          else if (Eintrag20.value!=="3" && Eintrag20.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag20").value="3"; window.open('Bruch_Aufgabe20.html');                                 
+                          document.getElementById("Pruef20").disabled= true;}                               
+                          else if (Eintrag20.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+
+    <!--//Aufgabe 21-->
+
+    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 21</p>
+        <p class="Aufgabe" style="font-weight:bold">Bestimmen Sie den ggT von 91, 364, 1 365, 3 822, 18 018    &nbsp; &nbsp; &nbsp; 
+        <button  onclick="window.open('Bruch_Aufgabe21.html');" >Lösung</button></p>
+
+    <!--//Aufgabe 22-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 22</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie den ggT von 440. 565, 1 232, 6 641, 30 030 </strong><br>Geben Sie 'kein' ein, wenn es keinen ggT gibt.<br> Ihr Ergebnis:
+    <input type="text" id="Eintrag22" maxlength="4" size="1" style= background-color:yellow ></input>
+    <button id="Pruef22" onclick="Aufgabe22()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe22() { 
+                                                
+                          if (Eintrag22.value=="kein") {alert("Richtig"); document.getElementById("Pruef22").disabled= true;
+                          }  
+                           
+                          else if (Eintrag22.value!=="kein" && Eintrag22.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag22").value="kein"; window.open('Bruch_Aufgabe22.html')                                 
+                          document.getElementById("Pruef22").disabled= true;}                               
+                          else if (Eintrag22.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script>
+
+<!--//Aufgabe 23-->
+
+    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 23</p>
+        <p class="Aufgabe" style="font-weight:bold">Bestimmen Sie den ggT von 630, 1 512, 2 772, 4 662, 65 520    &nbsp; &nbsp; &nbsp; 
+        <button  onclick="window.open('Bruch_Aufgabe23.html');" >Lösung</button></p>
+
+<!--//Aufgabe 24-->
+
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 24</p>
+  <p class = "Aufgabe" ><strong>Bestimmen Sie den ggT von 180, 504, 3 132, 12 780</strong><br> Ihr Ergebnis:
+    <input type="text" id="Eintrag24" maxlength="2" size="1" style= background-color:yellow ></input>
+    <button id="Pruef24" onclick="Aufgabe24()">Prüfen</button>
+  
+                    <script>
+                        function Aufgabe24() { 
+                                                
+                          if (Eintrag24.value=="36") {alert("Richtig"); document.getElementById("Pruef24").disabled= true;
+                          }  
+                           
+                          else if (Eintrag24.value!=="36" && Eintrag24.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag24").value="36";window.open('Bruch_Aufgabe24.html');                                  
+                          document.getElementById("Pruef24").disabled= true;}                               
+                          else if (Eintrag24.value=="") {alert("Bitte eine Eingabe machen")}}
+                         
+                      </script><br>
+                     
+          
+
+             
+          <button type="button" class ="Aufgabe" onclick="window.open('index.html'); window.close('Bruch1.html');">zurück...</button>    
+	        <button type="button" class ="Aufgabe" onclick="window.open('Bruch2.html'); window.close('Bruch1.html');">mehr...</button>
+          
+        <script>
+            document.body.addEventListener("input", function(inputEvent) {
+              const eingabeFeld = inputEvent.target;
+              if (eingabeFeld.maxLength > 0 && eingabeFeld.value.length > eingabeFeld.maxLength) {
+                eingabeFeld.value = eingabeFeld.value.substr(0, eingabeFeld.maxLength);
+              }
+            })
+          </script><br>
+        
+         
+
+        </body></html>
+
+                      
+                    
