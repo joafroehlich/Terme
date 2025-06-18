@@ -20,7 +20,7 @@
         .Text2 { font-size: 1em; font-family: Verdana,Sans-serif;margin-top:1em;margin-left:0.5em;}
         .Text3 { font-size: 0.8em;background-color: white; font-family: Verdana,Sans-serif;margin:0.5em; }
         
-        .Aufgabe { font-size: 0.9em;  font-family: monospace, monospace;margin:0.5em;}
+        .Aufgabe { font-size: 0.9em;  font-family: monospace, monospace;margin:1em;}
         button {background-color:white;font-size:0.9em; font-family: Verdana, Sans-serif; }
         input {background-color:yellow; }
     </style>
@@ -29,16 +29,18 @@
     <p class="Text1">Wie löse ich Matheaufgaben?</p>
 		<p class="Text1">Rechnen mit Zahlen und Variablen</p>
   
-    <p class="Text2"><span style= "background-color:white;">Sie sehen ein gelbes Eingabefeld oder den <br>Schalter: Lösung.</span></p>
+    <p class="Text2"><span style= "background-color:white;">Sie sehen ein gelbes Eingabefeld und die <br>Schalter: Prüfen und Lösung.</span></p>
 		<p class="Text2"><span style= "background-color:white;">Tragen Sie Ihr Ergebnis ein, prüfen Sie es <br> oder starten Sie eine Lösung.</span></p>
   </div>
 
-    <!--//Aufgabe 1-->
+<p class = "Aufgabe" ><span style = "background-color:white;">Berechnen Sie:</span></p>
+    
+<!--//Aufgabe 1-->
 
-    <p class ="Aufgabe" style="font-weight:bold">Berechnen Sie:<br><br>Aufgabe 1</p>
-  <p class = "Aufgabe" ><strong>(-3) + (+2) – (+5) – (-11) + (-6)                &nbsp; &nbsp; </strong><br> Ihr Ergebnis:
+    <p class ="Aufgabe" style="font-weight:bold">Aufgabe 1</p>
+  <p class = "Aufgabe" ><strong>(-3) + (+2) – (+5) – (-11) + (-6)                </strong><br><br> Ihr Ergebnis:
     <input type="text" id="Eintrag1" maxlength="2" size="1" style= background-color:yellow ></input>
-    <button id="Pruef1" onclick="Aufgabe1()">Prüfen</button>
+    <button id="Pruef1" onclick="Aufgabe1()">Prüfen</button></p>
     
                      <script>
                         function Aufgabe1() { 
@@ -56,15 +58,15 @@
 <!--//Aufgabe 2-->
 
   <p class="Aufgabe" style="font-weight:bold" >Aufgabe 2</p>
-  <p class="Aufgabe" style="font-weight:bold">418 – (69 – 83) + (116 – 327)  &nbsp; &nbsp;           
+  <p class="Aufgabe" style="font-weight:bold">418 – (69 – 83) + (116 – 327)  &nbsp;            
      <button  onclick="window.open('Terme_Aufgabe2.html');" >Lösung</button></p>
 
 <!--//Aufgabe 3-->
 
   <p class ="Aufgabe" style="font-weight:bold">Aufgabe 3</p>
-  <p class = "Aufgabe" ><strong>(+89,7) – (-24,3) + (37,2 – 52,6) – (44,1)    &nbsp; &nbsp; </strong><br> Ihr Ergebnis:
+  <p class = "Aufgabe" ><strong>(+89,7) – (-24,3) + (37,2 – 52,6) – (44,1)    </strong><br><br> Ihr Ergebnis:
     <input type="text" id="Eintrag3" maxlength="4" size="1" style= background-color:yellow ></input>
-    <button id="Pruef3" onclick="Aufgabe3()">Prüfen</button>
+    <button id="Pruef3" onclick="Aufgabe3()">Prüfen</button></p>
                         
                       <script>
                         function Aufgabe3() { 
@@ -82,13 +84,13 @@
   <!--//Aufgabe 4-->
 
   <p class="Aufgabe" style="font-weight:bold" >Aufgabe 4</p>
-  <p class="Aufgabe" style="font-weight:bold">|+4| + |-19| - |-31| + |-10| - |+2|                          &nbsp; &nbsp; &nbsp; 
+  <p class="Aufgabe" style="font-weight:bold">|+4| + |-19| - |-31| + |-10| - |+2|   &nbsp; 
   <button  onclick="window.open('Terme_Aufgabe4.html');" >Lösung</button></p>
 
   <!--//Aufgabe 5-->
    
   <p class ="Aufgabe" style="font-weight:bold">Aufgabe 5</p>
-  <p class = "Aufgabe" ><strong>(+4) + |-4| - |+4| - (-4) – (+4) - |-4| + (-4) + |+4|     &nbsp; &nbsp;</strong><br> Ihr Ergebnis:
+  <p class = "Aufgabe" ><strong>(+4) + |-4| - |+4| - (-4) – (+4) - |-4| + (-4) + |+4|     </strong><br><br> Ihr Ergebnis:
     <input type="text" id="Eintrag5" maxlength="1" size="1" style= background-color:yellow ></input>
     <button id="Pruef5" onclick="Aufgabe5()">Prüfen</button>
        
@@ -108,37 +110,37 @@
   <!--//Aufgabe 6-->
 
    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 6</p>
-  <p class="Aufgabe" style="font-weight:bold">(16 – 108) – (73 – 147) – (89 + 13) + (186 – 41)  &nbsp; &nbsp; &nbsp; 
+  <p class="Aufgabe" style="font-weight:bold">(16 – 108) – (73 – 147) – (89 + 13) + (186 – 41)  &nbsp;  
   <button  onclick="window.open('Terme_Aufgabe6.html');" >Lösung</button></p>
   
   <!--//Aufgabe 7-->
   
   <p class="Aufgabe" style="font-weight:bold" >Aufgabe 7</p>
-  <p class="Aufgabe" style="font-weight:bold">17a - 23b + 35c – 9a – 41c + 30b      &nbsp; &nbsp; &nbsp; 
+  <p class="Aufgabe" style="font-weight:bold">17a - 23b + 35c – 9a – 41c + 30b      &nbsp;  
   <button  onclick="window.open('Terme_Aufgabe7.html');" >Lösung</button></p>
                       
   <!--//Aufgabe 8-->
 
    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 8</p>
-  <p class="Aufgabe" style="font-weight:bold">5p – 3q – 7r + 9q + 13s – 17t – 3p + 19r – 6s      &nbsp; &nbsp;  
+  <p class="Aufgabe" style="font-weight:bold">5p – 3q – 7r + 9q + 13s – 17t – 3p + 19r – 6s      &nbsp;   
   <button  onclick="window.open('Terme_Aufgabe8.html');" >Lösung</button></p>
 
   <!--//Aufgabe 9-->
   
    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 9</p>
-  <p class="Aufgabe" style="font-weight:bold">1081,27x – 495,3 + 716,88y – 693,04z – 375,42y + 481,14z – 92,3x      &nbsp; &nbsp;  
+  <p class="Aufgabe" style="font-weight:bold">1081,27x – 495,3 + 716,88y – 693,04z – 375,42y + 481,14z – 92,3x      &nbsp;   
   <button  onclick="window.open('Terme_Aufgabe8.html');" >Lösung</button></p>
 
 <!--//Aufgabe 10-->
   
    <p class="Aufgabe" style="font-weight:bold" >Aufgabe 10</p>
-  <p class="Aufgabe" style="font-weight:bold">x * 3y * 2z * 5xz * 3xy      &nbsp; &nbsp; &nbsp; 
+  <p class="Aufgabe" style="font-weight:bold">x * 3y * 2z * 5xz * 3xy      &nbsp;  
   <button  onclick="window.open('Terme_Aufgabe8.html');" >Lösung</button></p>
 
   <!--//Aufgabe 11-->
   
   <p class ="Aufgabe" style="font-weight:bold">Aufgabe 11</p>
-  <p class = "Aufgabe" ><strong>(+3x)(-2y) - (-5x)(-4y) + (-y)(6x) - (+4x)(-9y) = </strong><input type="text" id="Eintrag11" maxlength="3" size="1" style= background-color:yellow ></input><br> Ihr Ergebnis:
+  <p class = "Aufgabe" ><strong>(+3x)(-2y) - (-5x)(-4y) + (-y)(6x) - (+4x)(-9y) = </strong>Ihr Ergebnis: <input type="text" id="Eintrag11" maxlength="3" size="1" style= background-color:yellow ></input>
     
     <button id="Pruef10" onclick="Aufgabe11()">Prüfen</button>
   
@@ -157,13 +159,13 @@
     <!--//Aufgabe 12-->
 
     <p class="Aufgabe" style="font-weight:bold" >Aufgabe 12</p>
-        <p class="Aufgabe" style="font-weight:bold">(-3u)(6vw) + (+2u)(-3w)(-v) - (+4uvw)(-5) + (-vw)*8u   &nbsp; &nbsp;  
+        <p class="Aufgabe" style="font-weight:bold">(-3u)(6vw) + (+2u)(-3w)(-v) - (+4uvw)(-5) + (-vw)*8u   &nbsp;  
         <button  onclick="window.open('Terme_Aufgabe12.html');" >Lösung</button></p>
         
     <!--//Aufgabe 13-->
 
     <p class ="Aufgabe" style="font-weight:bold">Aufgabe 13</p>
-  <p class = "Aufgabe" ><strong>+15ab : (-3b) =                    </strong><input type="text" id="Eintrag13" maxlength="3" size="1" style= background-color:yellow ></input><br> Ihr Ergebnis:
+  <p class = "Aufgabe" ><strong>+15ab : (-3b) =                    </strong>Ihr Ergebnis: <input type="text" id="Eintrag13" maxlength="3" size="1" style= background-color:yellow ></input>
     
     <button id="Pruef12" onclick="Aufgabe13()">Prüfen</button>
   
@@ -182,7 +184,7 @@
     <!--//Aufgabe 14-->
 
     <p class="Aufgabe" style="font-weight:bold" >Aufgabe 14</p>
-        <p class="Aufgabe" style="font-weight:bold">(-7a² b) : (-21ab²)                  &nbsp; &nbsp; &nbsp; 
+        <p class="Aufgabe" style="font-weight:bold">(-7a² b) : (-21ab²)                  &nbsp;  
         <button  onclick="window.open('Terme_Aufgabe14.html');" >Lösung</button></p>
 
     <!--//Aufgabe 15-->
@@ -190,7 +192,7 @@
     <p class ="Aufgabe" style="font-weight:bold">Aufgabe 15</p>
   <pre><p class = "Aufgabe" ><strong>    3               5             6b
 (- --- ab² x) : (- --- a² bx) = -------  
-    4               8</strong>            <input type="text" id="Eintrag15" maxlength="2" size="1" style= background-color:yellow ></input><br>Ihr Ergebnis:  <button id="Pruef15" onclick="Aufgabe15()">Prüfen</button></p></pre> 
+    4               8</strong>            <input type="text" id="Eintrag15" maxlength="2" size="1" style= background-color:yellow ></input><br><br>Ihr Ergebnis:  <button id="Pruef15" onclick="Aufgabe15()">Prüfen</button></p></pre> 
   
                     <script>
                         function Aufgabe15() { 
