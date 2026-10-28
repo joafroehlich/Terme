@@ -28,7 +28,14 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 .br-mobil {
             display: none;}
 .br-desk {
-            display: block;} 
+            display: block;}
+            
+.mobile-plus {
+            display: none;}  
+.mobile-minus {
+            display: none;} 
+.mobile-gleich {
+            display: none;}               
 
 @media screen and (max-width: 576px) {
 
@@ -36,7 +43,16 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
                 display: block;}
 
             .br-desk {
-                display: none;}  
+                display: none;} 
+                
+            .desktop-plus {
+                display: none; }
+
+            .desktop-minus {
+                display: none; }
+
+             .desktop-gleich {
+                display: none; }                      
                 
                 }
         input {background-color:yellow; }
@@ -87,9 +103,9 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 
 <!--//Aufgabe 3-->
 
-  <h2>Aufgabe 3</h2>
+<h2>Aufgabe 3</h2>
 
-<p>(+89,7) – (-24,3) + (37,2 – 52,6) – (44,1) = <input type="text" id="Eintrag3" maxlength="4" ></p>
+<p>(+89,7) – (-24,3) + (37,2 – 52,6) – (44,1) = <br class = "br-mobil"><span class= "mobile-gleich">=</span><input type="text" id="Eintrag3" maxlength="4" ></p>
 
 </input> <button type="button" id="Pruef3" onclick="Aufgabe3()">Prüfen</button></p></pre>
                         
@@ -110,7 +126,7 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 
   <pre><p class="Aufgabe" >Aufgabe 4
 
-|+4| + |-19| - |-31| + |-10| - |+2|   
+|+4|+|-19|-|-31|+|-10|-|+2|   
 
 <button type="button" onclick="window.open('Terme_Aufgabe4.html');" >Lösung</button></p></pre>
 
