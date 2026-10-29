@@ -85,7 +85,7 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 
     <h2>Aufgabe 1</h2>
 
-<p>(-3) + (+2) – (+5) – (-11) + (-6) = <input type="text" id="Eintrag1" maxlength="2" ></input></p> 
+<p>(-3) + (+2) – (+5) – (-11) + (-6) = -----------------------------------------------------<input type="text" id="Eintrag1" maxlength="2" ></input></p> 
 
 <button type="button" id="Pruef1" onclick="Aufgabe1()">Prüfen</button></p>
     
@@ -418,29 +418,25 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 
     <h2>Aufgabe 26</h2><p>
 
-<math mathsize="1em"><mtext>2[18&#x2007;-&#x2007;3(7w&#x2007;-&#x2007;5)]&#x2007;-&#x2007;3[5w&#x2007;+&#x2007;2(9&#x2007;-&#x2007;4w)]&#x2007;+&#x2007;+&#x2007;4[2w&#x2007;-&#x2007;5(2w&#x2007;-&#x2007;3)]&#x2007;=&#x2007;72</mtext><mo>&#xA0;</mo><mtext>&#x2212;&#x2007;?</mtext><mo>&#xA0;</mo><mtext>&#xd7;</mtext><mo>&#xA0;</mo><mtext>w</mtext></math><p>
+<math mathsize="1em"><mtext>x(2&#x2007;-&#x2007;7x)&#x2007;+&#x2007;4x(3x&#x2007;+&#x2007;2)&#x2007;-&#x2007;5x(3x&#x2007;-&#x2007;1)&#x2007;+&#x2007;(2x&#x2007;-&#x2007;3)5x</mtext></math><p>
 
 <button type="button" onclick="window.open('Terme_Aufgabe26.html');" >Lösung</button></p></pre>
 
    <!--//Aufgabe 27-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 27
+    <h2>Aufgabe 27</h2><p>
 
-0,4a(0,16b - 0,61c) - 0,72b(0,91a + 0,43c) + 
+<math mathsize="1em"><mtext>0,4a(0,16b&#x2007;-&#x2007;0,61c)&#x2007;-&#x2007;0,72b(0,91a&#x2007;+&#x2007;0,43c)&#x2007;+&#x2007;0,81c(0,33b&#x2007;+&#x2007;0,29a)&#x2007;=</mtext><mo>&#xA0;</mo><mtext>-0,5912ab&#x2007;-&#x2007;0,0423bc</mtext><mo>&#xA0;</mo><mtext>-</mtext><mo>&#xA0;</mo><mtext>?</mtext><mo>&#xA0;</mo><mtext>ac</mtext></math><p>
 
-+ 0,81c(0,33b + 0,29a) =
-
-= -0,5912ab - 0,0423bc <input type="text" id="Eintrag27" maxlength="7" size="2"  ></input> ac   
-    
-<button type="button" id="Pruef27" onclick="Aufgabe27()">Prüfen</button></p></pre>
+? = <input type="text" id="Eintrag27" maxlength="6"  ></input> <button type="button" id="Pruef27" onclick="Aufgabe27()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe27() { 
                                                 
-                          if (Eintrag27.value=="-0,0091") {alert("Richtig"); document.getElementById("Pruef27").disabled= true;
+                          if (Eintrag27.value=="0,0091") {alert("Richtig"); document.getElementById("Pruef27").disabled= true;
                           }  
                            
-                          else if (Eintrag27.value!=="-0,0091" && Eintrag27.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag27").value="-0,0091";window.open('Terme_Aufgabe27.html');                                  
+                          else if (Eintrag27.value!=="0,0091" && Eintrag27.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag27").value="0,0091";window.open('Terme_Aufgabe27.html');                                  
                           document.getElementById("Pruef27").disabled= true;}                               
                           else if (Eintrag27.value=="") {alert("Bitte eine Eingabe machen")}}
                          
@@ -448,25 +444,27 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 
      <!--//Aufgabe 28-->
 
-    <pre><p class="Aufgabe" >Aufgabe 28
+    <h2>Aufgabe 28</h2><p>
 
-(2x + 3y)(5x + 2y) <button type="button" onclick="window.open('Terme_Aufgabe28.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mn>2</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>3</mn><mi mathvariant="normal">y</mi><mo>)</mo><mo>(</mo><mn>5</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">y</mi><mo>)</mo></math><p>
+
+ <button type="button" onclick="window.open('Terme_Aufgabe28.html');" >Lösung</button></p>
 
    <!--//Aufgabe 29-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 29
+    <h2>Aufgabe 29</h2><p>
 
-(11v + 9w)(11v - 9w) = 12lv<sup>2</sup> <input type="text" id="Eintrag29" maxlength="3" size="1"  ></input> w<sup>2</sup> 
+<math mathsize="1em"><mo>(</mo><mn>11</mn><mi mathvariant="normal">v</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>9</mn><mi mathvariant="normal">w</mi><mo>)</mo><mo>(</mo><mn>11</mn><mi mathvariant="normal">v</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>9</mn><mi mathvariant="normal">w</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>12</mn><msup><mi mathvariant="normal">lv</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>&#x2212;</mo><mo>&#xA0;</mo><mo>?</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">w</mi><mn>2</mn></msup><mo>&#xA0;</mo></math><p>
 
-<button type="button" id="Pruef29" onclick="Aufgabe29()">Prüfen</button></p></pre>
+? = <input type="text" id="Eintrag29" maxlength="2"  ></input> <button type="button" id="Pruef29" onclick="Aufgabe29()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe29() { 
                                                 
-                          if (Eintrag29.value=="-81") {alert("Richtig"); document.getElementById("Pruef29").disabled= true;
+                          if (Eintrag29.value=="81") {alert("Richtig"); document.getElementById("Pruef29").disabled= true;
                           }  
                            
-                          else if (Eintrag29.value!=="-81" && Eintrag29.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag29").value="-81";window.open('Terme_Aufgabe29.html');                                  
+                          else if (Eintrag29.value!=="81" && Eintrag29.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag29").value="81";window.open('Terme_Aufgabe29.html');                                  
                           document.getElementById("Pruef29").disabled= true;}                               
                           else if (Eintrag29.value=="") {alert("Bitte eine Eingabe machen")}}
                          
@@ -474,17 +472,19 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
                      
 <!--//Aufgabe 30-->
 
-    <pre><p class="Aufgabe" >Aufgabe 30
+    <h2>Aufgabe 30</h2><p>
 
-(-13x - 11y)(9x - 14y) <button type="button" onclick="window.open('Terme_Aufgabe30.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mo>-</mo><mn>13</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>11</mn><mi mathvariant="normal">y</mi><mo>)</mo><mo>(</mo><mn>9</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>14</mn><mi mathvariant="normal">y</mi><mo>)</mo></math><p>
+
+ <button type="button" onclick="window.open('Terme_Aufgabe30.html');" >Lösung</button></p>
 
    <!--//Aufgabe 31-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 31
+    <h2>Aufgabe 31</h2><p>
 
-(x + y - z)(x - y - z) = 
+<math mathsize="1em"><mo>(</mo><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mi mathvariant="normal">y</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi mathvariant="normal">z</mi><mo>)</mo><mo>(</mo><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi mathvariant="normal">y</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi mathvariant="normal">z</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>?</mo><mo>&#xA0;</mo><mi mathvariant="normal">xz</mi><mo>&#xA0;</mo><mo>&#x2212;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">y</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">x</mi><mn>2</mn></msup></math><p>
 
-= <input type="text" id="Eintrag31" maxlength="2" size="1"  ></input> xz - y<sup>2</sup> + x<sup>2</sup> <button type="button" id="Pruef31" onclick="Aufgabe31()">Prüfen</button></p></pre>
+? = <input type="text" id="Eintrag31" maxlength="2" ></input>  <button type="button" id="Pruef31" onclick="Aufgabe31()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe31() { 
@@ -500,19 +500,19 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 
         <!--//Aufgabe 32-->
 
-    <pre><p class="Aufgabe" >Aufgabe 32
+    <h2>Aufgabe 32</h2><p>
 
-(2x - 1)(3x + 5)(x + 1) <button type="button" onclick="window.open('Terme_Aufgabe32.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mn>2</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>3</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo></math><p>
+
+<button type="button" onclick="window.open('Terme_Aufgabe32.html');" >Lösung</button></p>
 
    <!--//Aufgabe 33-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 33
+    <h2>Aufgabe 33</h2><p>
 
-(4a - 2b)(5a - 3b)(6a + 4b) = 
+<math mathsize="1em"><mfenced open="(" close=")"><mrow><mtext>4</mtext><mtext>a</mtext><mtext>&#xa0;-&#xa0;</mtext><mtext>2</mtext><mtext>b</mtext></mrow></mfenced><mfenced open="(" close=")"><mrow><mtext>5</mtext><mtext>a</mtext><mtext>&#xa0;-&#xa0;</mtext><mtext>3</mtext><mtext>b</mtext></mrow></mfenced><mfenced open="(" close=")"><mrow><mtext>6</mtext><mtext>a</mtext><mtext>&#xa0;+&#xa0;</mtext><mtext>4</mtext><mtext>b</mtext></mrow></mfenced><mtext>&#xa0;=&#xa0;</mtext><mtext>120</mtext><msup><mtext>a</mtext><mtext>3</mtext></msup><mtext>-&#xa0;</mtext><mtext>52</mtext><msup><mtext>a</mtext><mtext>2</mtext></msup><mtext>b</mtext><mtext>&#xa0;-&#xa0;?&#xa0;</mtext><msup><mtext>ab</mtext><mtext>2</mtext></msup><mtext>&#xA0;</mtext><mtext>+</mtext><mtext>&#xA0;</mtext><mtext>24</mtext><msup><mtext>b</mtext><mtext>3</mtext></msup></math><p>
 
-= 120a<sup>3</sup> - 52a<sup>2</sup>b - <input type="text" id="Eintrag33" maxlength="2" size="1"  ></input> ab<sup>2</sup> + 24b<sup>3</sup>     
-    
-<button type="button" id="Pruef33" onclick="Aufgabe33()">Prüfen</button></p></pre>
+? = <input type="text" id="Eintrag33" maxlength="2" ></input> <button type="button" id="Pruef33" onclick="Aufgabe33()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe33() { 
@@ -528,19 +528,19 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
 
          <!--//Aufgabe 34-->
 
-    <pre><p class="Aufgabe" >Aufgabe 34
+    <h2>Aufgabe 34</h2><p>
 
-(a + b)(2a - 3b) - (3a + 2b)(a - b) 
+<math mathsize="1em"><mo>(</mo><mi mathvariant="normal">a</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mi mathvariant="normal">b</mi><mo>)</mo><mo>(</mo><mn>2</mn><mi mathvariant="normal">a</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>3</mn><mi mathvariant="normal">b</mi><mo>)</mo><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><mn>3</mn><mi mathvariant="normal">a</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">b</mi><mo>)</mo><mo>(</mo><mi mathvariant="normal">a</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi mathvariant="normal">b</mi><mo>)</mo><mo>&#xA0;</mo></math><p>
 
-<button type="button" onclick="window.open('Terme_Aufgabe34.html');" >Lösung</button></p></pre>
+<button type="button" onclick="window.open('Terme_Aufgabe34.html');" >Lösung</button></p>
 
    <!--//Aufgabe 35-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 35
+    <h2>Aufgabe 35</h2><p>
 
-(x + y)[(x + y)(x - 2y) - (x + 2y)(x - y)] = 
+<math mathsize="1em"><mfenced open="(" close=")"><mrow><mtext>x</mtext><mtext>&#xa0;+&#xa0;</mtext><mtext>y</mtext></mrow></mfenced><mfenced open="[" close="]"><mrow><mfenced open="(" close=")"><mrow><mtext>x</mtext><mtext>&#xa0;+&#xa0;</mtext><mtext>y</mtext></mrow></mfenced><mfenced open="(" close=")"><mrow><mtext>x</mtext><mtext>&#xa0;-&#xa0;</mtext><mtext>2</mtext><mtext>y</mtext></mrow></mfenced><mtext>&#xa0;-&#xa0;</mtext><mfenced open="(" close=")"><mrow><mtext>x</mtext><mtext>&#xa0;+&#xa0;</mtext><mtext>2</mtext><mtext>y</mtext></mrow></mfenced><mfenced open="(" close=")"><mrow><mtext>x</mtext><mtext>&#xa0;-&#xa0;</mtext><mtext>y</mtext></mrow></mfenced></mrow></mfenced><mtext>&#xa0;=&#xa0;</mtext><mo>&#xA0;</mo><mtext>-</mtext><mtext>2</mtext><msup><mtext>x</mtext><mtext>2</mtext></msup><mtext>y</mtext><mtext>&#xa0;?&#xa0;</mtext><msup><mtext>xy</mtext><mtext>2</mtext></msup></math><p>
 
-= -2x<sup>2</sup>y <input type="text" id="Eintrag35" maxlength="2" size="1"  ></input> xy<sup>2</sup> <button type="button" id="Pruef35" onclick="Aufgabe35()">Prüfen</button></p></pre>
+= ? <input type="text" id="Eintrag35" maxlength="2" size="1"  ></input> <button type="button" id="Pruef35" onclick="Aufgabe35()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe35() { 
@@ -556,17 +556,19 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
                       
              <!--//Aufgabe 36-->
 
-    <pre><p class="Aufgabe" >Aufgabe 36
+   <h2>Aufgabe 36</h2><p>
 
-(k+9)(k+7) - (k+4)<sup>2</sup> - (k+1)(k-1) + (k-2)<sup>2</sup>   
+<math mathsize="1em"><mo>(</mo><mi mathvariant="normal">k</mi><mo>+</mo><mn>9</mn><mo>)</mo><mo>(</mo><mi mathvariant="normal">k</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><mi mathvariant="normal">k</mi><mo>+</mo><mn>4</mn><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><mi mathvariant="normal">k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi mathvariant="normal">k</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>(</mo><mi mathvariant="normal">k</mi><mo>-</mo><mn>2</mn><msup><mo>)</mo><mn>2</mn></msup></math><p>
 
-<button type="button" onclick="window.open('Terme_Aufgabe36.html');" >Lösung</button></p></pre>
+<button type="button" onclick="window.open('Terme_Aufgabe36.html');" >Lösung</button></p>
 
    <!--//Aufgabe 37-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 37
+    <h2>Aufgabe 37</h2><p>
 
-(-1 + x)<sup>2</sup> - (1 - x)<sup>2</sup> = <input type="text" id="Eintrag37" maxlength="1" size="1"  ></input> xy<sup>2</sup> <button type="button" id="Pruef37" onclick="Aufgabe37()">Prüfen</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mo>-</mo><mn>1</mn><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mi mathvariant="normal">x</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi mathvariant="normal">x</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo></math> <input type="text" id="Eintrag37" maxlength="1"  ></input><p> 
+
+<button type="button" id="Pruef37" onclick="Aufgabe37()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe37() { 
@@ -582,19 +584,19 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
                       
                  <!--//Aufgabe 38-->
 
-    <pre><p class="Aufgabe" >Aufgabe 38
+    <h2>Aufgabe 38</h2><p>
 
-(4m + 3n)<sup>2</sup> - (2m - 4n)(2m + 4n) - (3m - 5n)<sup>2</sup> - 3m<sup>2</sup>
+<math mathsize="1em"><mo>(</mo><mn>4</mn><mi mathvariant="normal">m</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>3</mn><mi mathvariant="normal">n</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mi mathvariant="normal">m</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>4</mn><mi mathvariant="normal">n</mi><mo>)</mo><mo>(</mo><mn>2</mn><mi mathvariant="normal">m</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>4</mn><mi mathvariant="normal">n</mi><mo>)</mo><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><mn>3</mn><mi mathvariant="normal">m</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>5</mn><mi mathvariant="normal">n</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>3</mn><msup><mi mathvariant="normal">m</mi><mn>2</mn></msup></math><p> 
 
-<button type="button" onclick="window.open('Terme_Aufgabe38.html');" >Lösung</button></p></pre>
+<button type="button" onclick="window.open('Terme_Aufgabe38.html');" >Lösung</button></p>
 
    <!--//Aufgabe 39-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 39
+    <h2>Aufgabe 39</h2><p>
 
-(3k+4l)<sup>2</sup> - (2l-5k)<sup>2</sup> + (4k-3l)(3l+4k) - 2l<sup>2</sup> = 
+<math mathsize="1em"><mo>(</mo><mn>3</mn><mi mathvariant="normal">k</mi><mo>+</mo><mn>4</mn><mi mathvariant="normal">l</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mi mathvariant="normal">l</mi><mo>-</mo><mn>5</mn><mi mathvariant="normal">k</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>(</mo><mn>4</mn><mi mathvariant="normal">k</mi><mo>-</mo><mn>3</mn><mi mathvariant="normal">l</mi><mo>)</mo><mo>(</mo><mn>3</mn><mi mathvariant="normal">l</mi><mo>+</mo><mn>4</mn><mi mathvariant="normal">k</mi><mo>)</mo><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>2</mn><msup><mi mathvariant="normal">l</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">l</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>?</mo><mo>&#xA0;</mo><mi mathvariant="normal">kl</mi><mo>&#xA0;</mo></math><p> 
 
-= l<sup>2</sup> + <input type="text" id="Eintrag39" maxlength="2" size="1"  ></input> kl <button type="button" id="Pruef39" onclick="Aufgabe39()">Prüfen</button></p></pre>
+? = <input type="text" id="Eintrag39" maxlength="2" size="1"  ></input> <button type="button" id="Pruef39" onclick="Aufgabe39()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe39() { 
@@ -610,19 +612,19 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
                       
         <!--//Aufgabe 40-->
 
-    <pre><p class="Aufgabe" >Aufgabe 40
+    <h2>Aufgabe 40</h2><p>
 
-(x + y - z)<sup>2</sup> <button type="button" onclick="window.open('Terme_Aufgabe40.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mi mathvariant="normal">y</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi mathvariant="normal">z</mi><msup><mo>)</mo><mn>2</mn></msup></math><p> 
+
+<button type="button" onclick="window.open('Terme_Aufgabe40.html');" >Lösung</button></p>
 
    <!--//Aufgabe 41-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 41
+    <h2>Aufgabe 41</h2><p>
 
-(k + l + m + n)<sup>2</sup> = k<sup>2</sup> + l<sup>2</sup> + m<sup>2</sup> + n<sup>2</sup> + 2kl + 2km + 
+<math mathsize="1em"><mo>(</mo><mi mathvariant="normal">k</mi><mi mathvariant="normal">&#x2007;</mi><mo>+</mo><mi mathvariant="normal">&#x2007;</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">&#x2007;</mi><mo>+</mo><mi mathvariant="normal">&#x2007;</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">&#x2007;</mi><mo>+</mo><mi mathvariant="normal">&#x2007;</mi><mi mathvariant="normal">n</mi><msup><mo>)</mo><mn>2</mn></msup><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">k</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">l</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">m</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">n</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">kl</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">km</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>?</mo><mo>&#xA0;</mo><mi mathvariant="normal">lm</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">ln</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">mn</mi><mo>&#xA0;</mo></math></p>
 
-+ <input type="text" id="Eintrag41" maxlength="1" size="1"  ></input> lm + 2ln + 2mn 
-    
-<button type="button" id="Pruef41" onclick="Aufgabe41()">Prüfen</button></p></pre>
+? = <input type="text" id="Eintrag41" maxlength="1" size="1"  ></input> <button type="button" id="Pruef41" onclick="Aufgabe41()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe41() { 
@@ -636,28 +638,31 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
                          
                       </script>
                       
-        <pre><p class = "Aufgabe" ><span style = "background-color:white;">Ergänzen Sie die Terme zu einem vollständigen 
-Quadrat.</span></p></pre>
+        <h2>Ergänzen Sie die Terme zu einem vollständigen Quadrat.</h2>
 
 <!--//Aufgabe 42-->
 
-    <pre><p class="Aufgabe" >Aufgabe 42
+    <h2>Aufgabe 42</h2><p>
 
-x<sup>2</sup> + 6x  <button type="button" onclick="window.open('Terme_Aufgabe42.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><msup><mi mathvariant="normal">x</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>6</mn><mi mathvariant="normal">x</mi></math></p>
+
+<button type="button" onclick="window.open('Terme_Aufgabe42.html');" >Lösung</button></p>
 
    <!--//Aufgabe 43-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 43
+    <h2>Aufgabe 43</h2><p>
 
-9a<sup>2</sup> <input type="text" id="Eintrag43" maxlength="4" size="1"  ></input> + 64  <button type="button" id="Pruef43" onclick="Aufgabe43()">Prüfen</button></p></pre>
+<math mathsize="1em"><mn>9</mn><msup><mi mathvariant="normal">a</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>?</mo><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>64</mn></math></p>
+
+? = <input type="text" id="Eintrag43" maxlength="4"  ></input> <button type="button" id="Pruef43" onclick="Aufgabe43()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe43() { 
                                                 
-                          if (Eintrag43.value=="+48a") {alert("Richtig"); document.getElementById("Pruef43").disabled= true;
+                          if (Eintrag43.value=="48a") {alert("Richtig"); document.getElementById("Pruef43").disabled= true;
                           }  
                            
-                          else if (Eintrag43.value!=="+48a" && Eintrag43.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag43").value="+48a";window.open('Terme_Aufgabe43.html');                                  
+                          else if (Eintrag43.value!=="48a" && Eintrag43.value!=="") {alert("Leider falsch. Die Lösung wird angezeigt."); document.getElementById("Eintrag43").value="48a";window.open('Terme_Aufgabe43.html');                                  
                           document.getElementById("Pruef43").disabled= true;}                               
                           else if (Eintrag43.value=="") {alert("Bitte eine Eingabe machen")}}
                          
@@ -665,17 +670,21 @@ x<sup>2</sup> + 6x  <button type="button" onclick="window.open('Terme_Aufgabe42.
 
         <!--//Aufgabe 44-->
 
-    <pre><p class="Aufgabe" >Aufgabe 44
+    <h2>Aufgabe 44</h2><p>
 
-9w<sup>2</sup> - 480w  <button type="button" onclick="window.open('Terme_Aufgabe44.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mn>9</mn><msup><mi mathvariant="normal">w</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>480</mn><mi mathvariant="normal">w</mi><mo>&#xA0;</mo></math></p>
 
-    <p class = "Aufgabe" ><span style = "background-color:white;">Berechnen Sie:</span></p>    
+<button type="button" onclick="window.open('Terme_Aufgabe44.html');" >Lösung</button></p>
+
+    <h2>Berechnen Sie:</h2></p>    
 
    <!--//Aufgabe 45-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 45
+    <h2>Aufgabe 45</h2><p>
 
-(21x - 14y) : 7 = <input type="text" id="Eintrag45" maxlength="2" size="1"  ></input> -2y <button type="button" id="Pruef45" onclick="Aufgabe45()">Prüfen</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mn>21</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>14</mn><mi mathvariant="normal">y</mi><mo>)</mo><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mn>7</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>?</mo><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">y</mi></math></p>
+
+? = <input type="text" id="Eintrag45" maxlength="2" size="1"  ></input> <button type="button" id="Pruef45" onclick="Aufgabe45()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe45() { 
@@ -691,19 +700,19 @@ x<sup>2</sup> + 6x  <button type="button" onclick="window.open('Terme_Aufgabe42.
 
         <!--//Aufgabe 46-->
 
-    <pre><p class="Aufgabe" >Aufgabe 46
+    <h2>Aufgabe 46</h2><p>
 
-(12uvw - 2uvz + 6uvwz) : 9uv  <button type="button" onclick="window.open('Terme_Aufgabe46.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mn>12</mn><mi mathvariant="normal">uvw</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>2</mn><mi mathvariant="normal">uvz</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>6</mn><mi mathvariant="normal">uvwz</mi><mo>)</mo><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mn>9</mn><mi mathvariant="normal">uv</mi><mo>&#xA0;</mo></math></p>
+
+<button type="button" onclick="window.open('Terme_Aufgabe46.html');" >Lösung</button></p>
 
    <!--//Aufgabe 47-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 47
+    <h2>Aufgabe 47</h2><p>
 
-(6,24l<sup>2</sup>mn - 8,84l<sup>2</sup>n<sup>2</sup> + 11,44lmn<sup>2</sup>) : 2,6ln = 
+<math mathsize="1em"><mo>(</mo><mn>6</mn><mo>,</mo><mn>24</mn><msup><mi mathvariant="normal">l</mi><mn>2</mn></msup><mi mathvariant="normal">mn</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>8</mn><mo>,</mo><mn>84</mn><msup><mi mathvariant="normal">l</mi><mn>2</mn></msup><msup><mi mathvariant="normal">n</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>11</mn><mo>,</mo><mn>44</mn><msup><mi mathvariant="normal">lmn</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mn>2</mn><mo>,</mo><mn>6</mn><mi mathvariant="normal">ln</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>2</mn><mo>,</mo><mn>4</mn><mi mathvariant="normal">lm</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>3</mn><mo>,</mo><mn>4</mn><mi mathvariant="normal">ln</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>?</mo><mo>&#xA0;</mo><mi mathvariant="normal">mn</mi></math></p>
 
-= 2,4lm - 3,4ln + <input type="text" id="Eintrag47" maxlength="3" size="1"  ></input> mn
-    
-<button type="button" id="Pruef47" onclick="Aufgabe47()">Prüfen</button></p></pre>
+? = <input type="text" id="Eintrag47" maxlength="3" size="1"  ></input> <button type="button" id="Pruef47" onclick="Aufgabe47()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe47() { 
@@ -719,15 +728,19 @@ x<sup>2</sup> + 6x  <button type="button" onclick="window.open('Terme_Aufgabe42.
                       
         <!--//Aufgabe 48-->
 
-    <pre><p class="Aufgabe" >Aufgabe 48
+   <h2>Aufgabe 48</h2><p>
 
-(2,7x - 2,7y) : (x - y)  <button type="button" onclick="window.open('Terme_Aufgabe48.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mn>2</mn><mo>,</mo><mn>7</mn><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>2</mn><mo>,</mo><mn>7</mn><mi mathvariant="normal">y</mi><mo>)</mo><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mo>(</mo><mi mathvariant="normal">x</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi mathvariant="normal">y</mi><mo>)</mo></math></p>
+
+<button type="button" onclick="window.open('Terme_Aufgabe48.html');" >Lösung</button></p>
 
    <!--//Aufgabe 49-->
 
-    <pre><p class ="Aufgabe" >Aufgabe 49
+    <h2>Aufgabe 49</h2><p>
 
-(38u<sup>2</sup> - 57uv) : (2u - 3v) = <input type="text" id="Eintrag49" maxlength="3" size="1"  ></input> mn <button type="button"id="Pruef49" onclick="Aufgabe49()">Prüfen</button></p></pre>
+<math mathsize="1em"><mo>(</mo><mn>38</mn><msup><mi mathvariant="normal">u</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>57</mn><mi mathvariant="normal">uv</mi><mo>)</mo><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mi mathvariant="normal">u</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>3</mn><mi mathvariant="normal">v</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo></math> <input type="text" id="Eintrag49" maxlength="3" ></input></p> 
+
+<button type="button"id="Pruef49" onclick="Aufgabe49()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe49() { 
@@ -743,11 +756,13 @@ x<sup>2</sup> + 6x  <button type="button" onclick="window.open('Terme_Aufgabe42.
                       
         <!--//Aufgabe 50-->
 
-    <pre><p class="Aufgabe" >Aufgabe 50
+    <h2>Aufgabe 50</h2><p>
 
-(u<sup>2</sup> - 10u + 25) : (u - 5)  <button type="button" onclick="window.open('Terme_Aufgabe50.html');" >Lösung</button></p></pre>
+<math mathsize="1em"><mo>(</mo><msup><mi mathvariant="normal">u</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>10</mn><mi mathvariant="normal">u</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mn>25</mn><mo>)</mo><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mo>(</mo><mi mathvariant="normal">u</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>5</mn><mo>)</mo></math></p> 
 
-             <p class = "Aufgabe" ><span style = "background-color:white;">Polynomdivision:</span></p>       
+<button type="button" onclick="window.open('Terme_Aufgabe50.html');" >Lösung</button></p>
+
+             <h2>Polynomdivision:</h2>       
 
    <!--//Aufgabe 51-->
 
