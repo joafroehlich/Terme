@@ -37,15 +37,13 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
             display: inline-block;}                          
 .mobile-plus {
             display: none;}  
-.mobile-minus {
-            display: none;} 
-.mobile-gleich {
-            display: none;}               
 
 @media screen and (max-width: 576px) {
 
             .br-mobil {
-                display: block;}
+                display: block;
+                 content: "";   
+                 height: 0.8em; }
 
             .br-desk {
                 display: none;} 
@@ -55,22 +53,10 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
                 
             .desktop-plus {
                 display: none; }
-
-            .desktop-minus {
-                display: none; }
-
-             .desktop-gleich {
-                display: none; } 
-                
+                          
             .mobile-plus {
                  display: inline-block; }
-
-            .mobile-minus {
-                 display: inline-block; } 
-
-            .mobile-gleich {
-                 display: inline-block; }   
-                
+                           
                 }
 
         input {background-color:yellow; }
@@ -207,7 +193,9 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.3rem; }
   
   <h2>Aufgabe 11</h2><p>
 
-   <p>(+3x)(-2y) - (-5x)(-4y) + (-y)(6x) - (+4x)(-9y) = <br class = "br-mobil"> <br class = "br-mobil"> <span class= "mobile-gleich">= </span> &nbsp;<input type="text" id="Eintrag11" maxlength="3"   ></input> <button type="button" id="Pruef10" onclick="Aufgabe11()">Prüfen</button></p>
+   <p>(+3x)(-2y) - (-5x)(-4y) + (-y)(6x) - (+4x)(-9y) = <br class = "br-mobil"> <br class = "br-mobil"> <span class= "mobile-gleich">= </span> &nbsp;<input type="text" id="Eintrag11" maxlength="3"   ></input><p> 
+    
+    <button type="button" id="Pruef10" onclick="Aufgabe11()">Prüfen</button></p>
   
                     <script>
                         function Aufgabe11() { 
